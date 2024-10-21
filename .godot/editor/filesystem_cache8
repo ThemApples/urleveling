@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1729486737
+game.tscn::PackedScene::4413820449165405721::1729240417::0::1::::<><>::uid://buha0nh67tupj::::res://player.tscn<>uid://3pqan3jo3h32::::res://Assets/Tilemap_Flat.png
+icon.svg::CompressedTexture2D::5521179674902063181::1728891465::1729486739::1::::<><>::
+player.tscn::PackedScene::3804693540649003663::1729239128::0::1::::<><>::uid://bfphde6hp8n1d::::res://Assets/Warrior_Blue.png<>res://script/player.gd
+::res://Assets/::1729238282
+Soldier.png::CompressedTexture2D::917364215260032553::1720890740::1729486739::1::::<><>::
+Tilemap_Flat.png::CompressedTexture2D::1997225486546879439::1663161352::1729486739::1::::<><>::
+Warrior_Blue.png::CompressedTexture2D::2768761202846982979::1663159594::1729486740::1::::<><>::
+::res://script/::1729239087
+player.gd::GDScript::-1::1729239087::0::1::::<>CharacterBody2D<>::
