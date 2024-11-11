@@ -1,0 +1,88 @@
+[gd_scene load_steps=13 format=3 uid="uid://bw4kidcj82hpo"]
+
+[ext_resource type="Script" path="res://script/orc.gd" id="1_x1soy"]
+[ext_resource type="Texture2D" uid="uid://bt0fwaxbunl4m" path="res://Assets/Orc-Walk.png" id="2_rc04w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s844q"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ysay"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_samlm"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fe3cw"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ilgw8"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(400, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lar5k"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(500, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6uwdl"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(600, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rs3hs"]
+atlas = ExtResource("2_rc04w")
+region = Rect2(700, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qa1nt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s844q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ysay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_samlm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fe3cw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ilgw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lar5k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6uwdl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rs3hs")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r2ymv"]
+radius = 7.07107
+
+[node name="Orc" type="Node2D"]
+script = ExtResource("1_x1soy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_qa1nt")
+autoplay = "default"
+frame_progress = 0.106424
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D"]
+shape = SubResource("CircleShape2D_r2ymv")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+target_position = Vector2(13, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+target_position = Vector2(-13, 0)

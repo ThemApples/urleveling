@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3pqan3jo3h32"
-path="res://.godot/imported/Tilemap_Flat.png-bd829f749c90ea86a149171b37dfdbca.ctex"
+uid="uid://33147am28bln"
+path="res://.godot/imported/Orc-Idle.png-c73f9dba16c9f82f716d4ded5ec71176.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tilemap_Flat.png"
-dest_files=["res://.godot/imported/Tilemap_Flat.png-bd829f749c90ea86a149171b37dfdbca.ctex"]
+source_file="res://Assets/Orc-Idle.png"
+dest_files=["res://.godot/imported/Orc-Idle.png-c73f9dba16c9f82f716d4ded5ec71176.ctex"]
 
 [params]
 
