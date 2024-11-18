@@ -10,7 +10,8 @@ I have included the icon package below if anyone is interested in using that pac
 
 ### Icon Package
 
-https://pixelfrog-assets.itch.io/tiny-swords
+https://zerie.itch.io/tiny-rpg-character-asset-pack
+https://pixel-poem.itch.io/dungeon-assetpuck
 
 ### References
 
